@@ -25,7 +25,7 @@ jobs:
           echo "Loyalsoldier_greatfire=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt" >> $GITHUB_ENV
           echo "felixonmars_apple=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf" >> $GITHUB_ENV
           echo "felixonmars_google=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf" >> $GITHUB_ENV
-          echo "ipipnet_chinaiplist=https://github.com/Hackl0us/GeoIP2-CN/raw/release/CN-ip-cidr.txt" >> $GITHUB_ENV
+          echo "ipipnet_chinaiplist=https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/CN-ip-cidr.txt" >> $GITHUB_ENV
           echo "telegram_cidr=https://core.telegram.org/resources/cidr.txt" >> $GITHUB_ENV
         shell: bash
 
